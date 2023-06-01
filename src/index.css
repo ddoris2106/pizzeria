@@ -6,3 +6,8 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+header li {
+	list-style: none;
+	padding: 5rem;
+}
