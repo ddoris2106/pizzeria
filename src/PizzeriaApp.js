@@ -4,6 +4,7 @@ import { useRecoilValue } from "recoil";
 import Nav from "./sub-section/Nav";
 import LandingPage from "./pages/LandingPage";
 import MenuPage from "./pages/MenuPage";
+import Footer from "./sub-section/Footer";
 import { pageToRenderState } from "./recoil_state";
 
 function PizzeriaApp() {
@@ -24,6 +25,7 @@ function PizzeriaApp() {
 			{/* {Cart} */}
 			<Nav />
 			{page}
+			<Footer />
 		</div>
 	);
 }

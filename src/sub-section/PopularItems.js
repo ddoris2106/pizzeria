@@ -7,7 +7,9 @@ function PopularItems(props) {
 		popularItemsInfo;
 
 	return (
+		// Section Wrapper
 		<div>
+			{/* Image Spread */}
 			<div>
 				<img
 					src={landscapeImages[0].image}
@@ -18,6 +20,7 @@ function PopularItems(props) {
 					alt={portraitImages[0].alt}
 				/>
 			</div>
+			{/* Image Spread */}
 			<div>
 				<img
 					src={landscapeImages[1].image}
@@ -28,10 +31,13 @@ function PopularItems(props) {
 					alt={portraitImages[1].alt}
 				/>
 			</div>
+			{/* Headline */}
 			<div>
 				<h3>{headline}</h3>
+				{/* Link to menu page */}
 				<button onClick>{buttonText}</button>
 			</div>
+			{/* Image Spread */}
 			<div>
 				<img
 					src={landscapeImages[2].image}
@@ -42,6 +48,7 @@ function PopularItems(props) {
 					alt={portraitImages[2].alt}
 				/>
 			</div>
+			{/* Image Spread */}
 			<div>
 				<img
 					src={landscapeImages[3].image}

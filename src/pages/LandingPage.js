@@ -3,7 +3,7 @@ import React from "react";
 import Hero from "../sub-section/Hero";
 import About from "../sub-section/About";
 import PopularItems from "../sub-section/PopularItems";
-import Footer from "../sub-section/Footer";
+import Testimonial from "../sub-section/Testimonial";
 
 function LandingPage() {
 	return (
@@ -11,7 +11,7 @@ function LandingPage() {
 			<Hero />
 			<About />
 			<PopularItems />
-			<Footer />
+			<Testimonial />
 		</div>
 	);
 }

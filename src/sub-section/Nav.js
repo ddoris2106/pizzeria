@@ -10,6 +10,7 @@ function Nav() {
 		setPageToRender(page);
 	};
 
+	// Opens cart modal on click
 	const handleToggle = () => {
 		setShowCart(!showCart);
 	};
@@ -20,6 +21,7 @@ function Nav() {
 				<li onClick={() => handleClick("menu")}>Menu</li>
 				<li onClick={() => handleClick("about")}>About US</li>
 				<li onClick={() => handleClick("home")}>PIZZERIA</li>
+				{/* Opens cart modal on click */}
 				<li onClick={() => handleToggle()}>Cart</li>
 			</ul>
 		</header>
