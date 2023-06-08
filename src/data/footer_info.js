@@ -1,26 +1,28 @@
 export const footerInfo = {
-	name: "PIZZERIA",
-	socials: [
-		{
-			platform: "facebook",
-			icon: "",
-		},
-		{
-			platform: "instagram",
-			icon: "",
-		},
-		{
-			platform: "twitter",
-			icon: "",
-		},
-		{
-			platform: "tiktok",
-			icon: "",
-		},
-	],
-	address: "xxx Cherry St. Brooklyn, NY 11230",
-	hoursOfServiceHeadline: "Open 7 days a week",
-	hoursOfService: "Sunday to Saturday 10 AM - 8PM",
+	storeInfo: {
+		name: "PIZZERIA",
+		socials: [
+			{
+				platform: "facebook",
+				icon: "",
+			},
+			{
+				platform: "instagram",
+				icon: "",
+			},
+			{
+				platform: "twitter",
+				icon: "",
+			},
+			{
+				platform: "tiktok",
+				icon: "",
+			},
+		],
+		address: "xxx Cherry St. Brooklyn, NY 11230",
+		hoursOfServiceHeadline: "Open 7 days a week",
+		hoursOfService: "Sunday to Saturday 10 AM - 8PM",
+	},
 	menu: {
 		sectionTitle: "Menu",
 		sectionItems: [
